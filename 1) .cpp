@@ -5,15 +5,23 @@
 #include <iostream>
 using namespace std;
 
-class cube{
-  public;
-  int height = 2.0;
-  int width = 3.0;
-  int length = 5.0;
+class Cube {
+public:
+    int height, width, length;
 };
 
-int main(){
-  cube c1;
-  int vol = c1.height*c1.width*c1.length;
-  cout << "Volume: " << vol << endl;
+int main() {
+    Cube c1;
+
+    cout << "Enter height: ";
+    cin >> c1.height;
+    cout << "Enter width: ";
+    cin >> c1.width;
+    cout << "Enter length: ";
+    cin >> c1.length;
+
+    int vol = c1.height * c1.width * c1.length;
+    cout << "Volume: " << vol << endl;
+
+    return 0;
 }
