@@ -1,4 +1,4 @@
-# 🧮 Experiment – Classes and Objects in C++
+# 🧮 Experiment 11 – Classes and Objects in C++
 
 ## 🎯 Aim
 To study and implement the concept of **Classes and Objects in C++** by writing a program that calculates the **volume of a cube** using object-oriented programming principles.
